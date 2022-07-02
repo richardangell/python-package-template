@@ -1,0 +1,11 @@
+[run]
+branch = True
+include = src/package/*
+omit = 
+      src/package/_version.py
+      *__init__.py
+      tests/*
+
+[report]
+show_missing = True
+fail_under = 90
